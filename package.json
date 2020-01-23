@@ -10,6 +10,10 @@
   "keywords": [
     "screeps"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krixi/screeps-ai-starter.git"
+  },
   "author": "krixi",
   "license": "ISC",
   "devDependencies": {
