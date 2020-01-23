@@ -1,0 +1,11 @@
+servers:
+  main:
+    host: screeps.com
+    secure: true
+    token: 'your auth token from screeps.com goes here'
+  private:
+    host: your.private.server.name.goes.here
+    port: 21025
+    secure: false
+    username: yourname
+    password: yourpasswordorwhatever

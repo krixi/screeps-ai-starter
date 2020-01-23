@@ -1,0 +1,22 @@
+{
+  "name": "screeps-ai-starter",
+  "version": "1.0.0",
+  "description": "An empty starting place for writing a screeps API. Uses rollup to merge files, so you can organize your code and use NPM to import dependencies.",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "screeps"
+  ],
+  "author": "krixi",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.1",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "rollup": "^1.29.1",
+    "rollup-plugin-clear": "^2.0.7",
+    "rollup-plugin-sizes": "^1.0.1"
+  }
+}
