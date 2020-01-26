@@ -1,33 +1,33 @@
 {
-    "name": "screeps-ai-starter",
-    "version": "1.0.0",
-    "description": "An empty starting place for writing a screeps API. Uses rollup to merge files, so you can organize your code and use NPM to import dependencies.",
-    "main": "src/main.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "rollup --config",
-        "watch": "rollup --config --watch"
-    },
-    "keywords": [
-        "screeps"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/krixi/screeps-ai-starter.git"
-    },
-    "author": "krixi",
-    "license": "ISC",
-    "devDependencies": {
-        "@rollup/plugin-commonjs": "^11.0.1",
-        "@rollup/plugin-node-resolve": "^7.0.0",
-        "@types/screeps": "^3.0.0",
-        "eslint": "^6.8.0",
-        "eslint-plugin-screeps": "^2.0.0",
-        "prettier": "^1.19.1",
-        "rollup": "^1.29.1",
-        "rollup-plugin-clear": "^2.0.7",
-        "rollup-plugin-copy": "^3.3.0",
-        "rollup-plugin-eslint": "^7.0.0",
-        "rollup-plugin-sizes": "^1.0.1"
-    }
+  "name": "screeps-ai-starter",
+  "version": "1.0.0",
+  "description": "An empty starting place for writing a screeps API. Uses rollup to merge files, so you can organize your code and use NPM to import dependencies.",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config",
+    "watch": "rollup --config --watch"
+  },
+  "keywords": [
+    "screeps"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krixi/screeps-ai-starter.git"
+  },
+  "author": "krixi",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.1",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "@types/screeps": "^3.0.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-screeps": "^2.0.0",
+    "prettier": "^1.19.1",
+    "rollup": "^1.29.1",
+    "rollup-plugin-clear": "^2.0.7",
+    "rollup-plugin-copy": "^3.3.0",
+    "rollup-plugin-eslint": "^7.0.0",
+    "rollup-plugin-sizes": "^1.0.1"
+  }
 }
