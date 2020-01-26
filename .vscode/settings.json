@@ -1,0 +1,7 @@
+{
+    "eslint.enable": true,
+    "search.exclude": {
+        "**/package-lock.json": true,
+        "dist": true
+    }
+}
