@@ -1,17 +1,17 @@
 env:
-    es6: true
-    node: true
-    screeps/screeps: true
+  es6: true
+  node: true
+  screeps/screeps: true
 extends: 'eslint:recommended'
 globals:
-    Atomics: readonly
-    SharedArrayBuffer: readonly
+  Atomics: readonly
+  SharedArrayBuffer: readonly
 parserOptions:
-    ecmaVersion: 2018
-    sourceType: module
+  ecmaVersion: 2018
+  sourceType: module
 plugins:
-    - screeps
+  - screeps
 ignorePatterns:
-    - 'dist/'
-    - 'node_modules/'
+  - 'dist/'
+  - 'node_modules/'
 rules: {}

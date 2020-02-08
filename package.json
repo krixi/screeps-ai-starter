@@ -16,7 +16,6 @@
     "url": "https://github.com/krixi/screeps-ai-starter.git"
   },
   "author": "krixi",
-  "license": "ISC",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^11.0.1",
     "@rollup/plugin-node-resolve": "^7.0.0",
@@ -28,6 +27,10 @@
     "rollup-plugin-clear": "^2.0.7",
     "rollup-plugin-copy": "^3.3.0",
     "rollup-plugin-eslint": "^7.0.0",
-    "rollup-plugin-sizes": "^1.0.1"
+    "rollup-plugin-sizes": "^1.0.1",
+    "screeps-api": "^1.11.0"
+  },
+  "dependencies": {
+    "source-map": "^0.6.1"
   }
 }

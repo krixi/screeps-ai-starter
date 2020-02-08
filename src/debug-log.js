@@ -1,4 +1,4 @@
-export function logErr(err) {
+export function err(err) {
     if (err instanceof Error) {
         console.log(color('#FF0000', err.stack));
     } else {
@@ -6,7 +6,11 @@ export function logErr(err) {
     }
 }
 
-export function logWarn(msg) {
+export function info(msg, colorVal = '#ffffff') {
+    console.log(color(colorVal, msg));
+}
+
+export function warn(msg) {
     console.log(color('#FFB600', msg));
 }
 
