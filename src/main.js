@@ -25,6 +25,7 @@ const update = function() {
         }
     });
 
+    //
     for (let name in Game.creeps) {
         const creep = Game.creeps[name];
 
