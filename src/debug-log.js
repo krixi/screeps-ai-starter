@@ -14,4 +14,4 @@ export function warn(msg) {
     console.log(color('#FFB600', msg));
 }
 
-const color = (color, msg) => `<span style="color: ${color}">, ${msg}, </span>`;
+const color = (color, msg) => `<span style="color: ${color}"> ${msg} </span>`;
