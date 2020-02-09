@@ -90,6 +90,6 @@ module.exports = {
         commonjs(),
         sizes(),
         prepareSourcemaps(),
-        ...(USE_SCREEPS_API ? [uploadToScreeps('main', 'default')] : [])
+        ...(USE_SCREEPS_API ? [uploadToScreeps('aws', 'tutorial')] : [])
     ]
 };

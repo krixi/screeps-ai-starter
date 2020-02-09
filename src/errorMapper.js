@@ -29,10 +29,7 @@ export class ErrorMapper {
                 const message = `Source maps don't work in the simulator - displaying original error`;
                 info(`${message}\n${_.escape(e.stack)}`, 'red');
             } else {
-                info(
-                    `${_.escape(ErrorMapper.sourceMappedStackTrace(e))}`,
-                    'red'
-                );
+                info(`${_.escape(ErrorMapper.sourceMappedStackTrace(e))}`, 'red');
             }
         } else {
             // can't handle it
@@ -63,7 +60,7 @@ export class ErrorMapper {
             if (match[2] === 'main') {
                 const pos = consumer.originalPositionFor({
                     column: parseInt(match[4], 10),
-                    line: parseInt(match[3], 10)
+                    line: parseInt(match[3], 10),
                 });
 
                 if (pos.line != null) {
