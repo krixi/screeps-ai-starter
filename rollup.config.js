@@ -3,7 +3,6 @@
 import clear from 'rollup-plugin-clear';
 import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
-import sizes from 'rollup-plugin-sizes';
 import { eslint } from 'rollup-plugin-eslint';
 import { ScreepsAPI } from 'screeps-api';
 import fs from 'fs';
@@ -88,7 +87,6 @@ module.exports = {
         eslint({ throwOnError: true, formatter: 'codeframe' }),
         resolve(),
         commonjs(),
-        sizes(),
         prepareSourcemaps(),
         ...(USE_SCREEPS_API ? [uploadToScreeps('main', 'default')] : [])
     ]
